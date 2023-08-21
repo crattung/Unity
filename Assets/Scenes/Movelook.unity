@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -6017,7 +6017,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: df4cc0f1b574c8548804e4cdc2cc32d1, type: 2}
+  - {fileID: 2100000, guid: 4fcdb8ec5fdb16c44acc05327eadac80, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6425,7 +6425,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1623990244709414047, guid: 35bbabf12944e0042823c181b161fe6e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.04349065
+      value: -0.492
       objectReference: {fileID: 0}
     - target: {fileID: 1623990244709414047, guid: 35bbabf12944e0042823c181b161fe6e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6433,7 +6433,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1623990244709414047, guid: 35bbabf12944e0042823c181b161fe6e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -13.478685
+      value: -14.245
       objectReference: {fileID: 0}
     - target: {fileID: 1623990244709414047, guid: 35bbabf12944e0042823c181b161fe6e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6522,7 +6522,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   gravity: -9.8
-  jumpHeight: 3
+  jumpHeight: 4
 --- !u!114 &7718158707276593724
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6589,7 +6589,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01d92270e0a0cbe439412d1cd920b219, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Weapon1: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
